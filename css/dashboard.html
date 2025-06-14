@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            background-color: rgb(51, 148, 148);
+        }
+        h1{
+            margin: 0;
+            color: black;
+        }
+        nav{
+            width: 100px;
+        }
+        ul{
+            display: flex;
+            justify-content: end;
+        }
+        li{
+            display: inline-flex;
+            margin-right: 20px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            background-color: darkgoldenrod;
+            color: aliceblue;
+            padding: 10px;
+            border: 2px solid maroon;
+            border-radius: 10px;
+            box-shadow: 2px 3px 4px;
+
+        }
+        a:hover{
+            background-color: darkgreen;
+            color: aliceblue;
+            border: 2px solid whitesmoke;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
