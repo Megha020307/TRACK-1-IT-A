@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+</head>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, #e2aad9, #77ddf7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+          background-color: #ffffffb4;
+            padding: 25px;
+            width: 600px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin: 10px 0px 5px;
+            text-align: left;
+        }
+        input {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color:rgb(22, 22, 22);
+            color: white;  
+        }
+
+        </style>
+<body>
+    <form id="form">
+        <h1> Student Form</h1>
+        <label for="name">Name :</label>
+        <input id="name"type="text"placeholder="enter your name"required>
+        <br><br>
+        <label for="reg no">Reg no :</label>
+        <input id="reg no"type="text"placeholder="enter your reg no"required maxlength="10">
+        <br><br>
+        <label for="Department">Department :</label>
+        <input id="Department"type="text"placeholder="enter the department"required>
+          <br><br>
+         <label for="gender">gender :</label>
+         <select name="gender" id="gender">
+            <option value="">select</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <br><br>
+        </select>
+        <br><br>
+        <label for="Phone number">Phone no :</label>
+        <input id="Phone number"type="text"placeholder="enter the Phone number"required maxlength="10">
+        <br><br>
+        <button>submit</button>
+
+    </form>
+</body>
+</html>
